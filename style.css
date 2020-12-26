@@ -1,0 +1,46 @@
+.machine
+{
+    margin: 50px;
+    background-color: peru;
+    height: 500px;
+    width: 700px;
+    display: flex;
+    justify-content: center; 
+     align-items: center;   
+   
+}
+
+.slot
+{
+   
+    background-color: lightsalmon;
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    font-size: 70pt;
+    text-align: center;
+    line-height: 270px;
+    overflow: hidden;       
+    
+    
+    
+}
+.value1{
+    
+    z-index:  1;
+    animation: slotAnimation  2s infinite;
+      
+}
+
+@keyframes slotAnimation
+{
+    0%{
+        transform: translateY(-110px);
+    }
+    50%{
+        transform: translateY(150px);
+    }
+    100%{
+        transform: translateY(-110px);
+    }
+}
